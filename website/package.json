@@ -1,0 +1,34 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "A Game website",
+  "keywords": [
+    "html",
+    "css",
+    "web"
+  ],
+  "homepage": "https://github.com/PS274366/GameWebsite#readme",
+  "bugs": {
+    "url": "https://github.com/PS274366/GameWebsite/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PS274366/GameWebsite.git"
+  },
+  "license": "Apache-2.0",
+  "author": "marc2h9",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "preview": "live-server",
+    "watch": "tsc -w",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "ts-jest": "^29.4.5"
+  }
+}
