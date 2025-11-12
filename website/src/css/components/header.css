@@ -1,0 +1,47 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: black;
+}
+
+header > span > h1 {
+    place-self: start left;
+    color: white;
+}
+
+#search-bar {
+    place-self: center center;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#search-bar > form > input {
+    background-color: white;
+    width: 200px;
+    height: 25px;
+    box-sizing: border-box;
+    border: 0px
+}
+
+#search-bar > form > input[type="button"] {
+    width: auto;
+    height: 25px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 0px
+}
+
+#nav-list {
+    grid-column: 3;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#nav-list > a {
+    margin-right: 10px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
