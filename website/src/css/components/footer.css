@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    background-color: #333333;
+}
+
+footer > span > p {
+    color: white;
+    padding: 2px;
+    margin: 0;
+}
