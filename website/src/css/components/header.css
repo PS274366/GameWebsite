@@ -1,6 +1,6 @@
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 185px 1fr 375px;
     background-color: black;
 }
 
@@ -10,7 +10,7 @@ header > span > h1 {
 }
 
 #search-bar {
-    place-self: center center;
+    place-self: center right;
     padding: 5px;
     background-color: white;
     border-radius: 10px;
@@ -18,9 +18,10 @@ header > span > h1 {
 
 #search-bar > form > input {
     background-color: white;
-    width: 200px;
+    width: 80%;
     height: 25px;
     box-sizing: border-box;
+    vertical-align: middle;
     border: 0px
 }
 
@@ -40,6 +41,8 @@ header > span > h1 {
 }
 
 #nav-list > a {
+    color: black;
+    text-decoration: none;
     margin-right: 10px;
     padding: 5px;
     background-color: white;

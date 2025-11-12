@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GameScope - Login or register</title>
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/pages/index.css">
+        <link rel="stylesheet" href="../css/components/header.css">
+        <link rel="stylesheet" href="../css/components/footer.css">
+        <link rel="stylesheet" href="../css/pages/register.css">
+    </head>
+    <body>
+        <header>
+            <span>
+                <h1>GameScope</h1>
+            </span>
+            <span id="search-bar">
+                <form>
+                    <input type="button" name="submit" value="&#128269;">
+                    <input type="text" name="searchbar" placeholder="Type to search...">
+                </form>
+            </span>
+            <span id="nav-list">
+                <a href="../index.html">Browse</a>
+                <a href="./register.html">Login / Register</a>
+                <a>Contact</a>
+                <a>About us</a>
+            </span>
+        </header>
+        <main>
+            <form>
+                <div>
+                    <label for="email">Email: <span style="color: red; font-weight: bold;">*</span></label>
+                    <br>
+                    <input id="email" type="text" name="email" placeholder="example@gmail.com">
+                </div>
+                <div>
+                    <label  for="number">Phone number:</label>
+                    <br>
+                    <input id="name" type="text" name="username" placeholder="John Doe">
+                </div>
+                <div>
+                    <label for="name">Username: <span style="color: red; font-weight: bold;">*</span></label>
+                    <br>
+                    <input id="name" type="text" name="username" placeholder="John Doe">
+                </div>
+                <div>
+                    <label for="password">Password: <span style="color: red; font-weight: bold;">*</span></label>
+                    <br>
+                    <input id="password" type="password" name="password" placeholder="Enter a secure password">
+                </div>
+                <div>
+                    <label for="age">Age: <span style="color: red; font-weight: bold;">*</span></label>
+                    <br>
+                    <input id="age" type="number" name="age" placeholder="Enter your age">
+                </div>
+                <div>
+                    <input id="tos" type="checkbox" name="tos">I accept the terms and conditions
+                </div>
+                <div id="register-submit-div">
+                    <input type="button" name="submit" value="Login!">
+                    <input type="button" name="submit" value="Register!">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <span>
+                <p>&copy; GameScope 2025. All rights reserved</p>
+                <p>Software is under Apache-2.0 License</p>
+            </span>
+        </footer>
+    </body>
+</html>
