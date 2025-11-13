@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="../css/components/header.css">
         <link rel="stylesheet" href="../css/components/footer.css">
         <link rel="stylesheet" href="../css/pages/register.css">
+        <script type="module" src="../../dist/ts/pages/register.js"></script>
     </head>
     <body>
         <header>
@@ -37,14 +38,14 @@
                     <input id="email" type="text" name="email" placeholder="example@gmail.com">
                 </div>
                 <div>
-                    <label  for="number">Phone number:</label>
+                    <label  for="phonenumber">Phone number:</label>
                     <br>
-                    <input id="name" type="text" name="username" placeholder="+31 6 1111111111">
+                    <input id="phonenumber" type="text" name="phonenumber" placeholder="+31 6 1111111111">
                 </div>
                 <div>
-                    <label for="name">Username: <span style="color: red; font-weight: bold;">*</span></label>
+                    <label for="username">Username: <span style="color: red; font-weight: bold;">*</span></label>
                     <br>
-                    <input id="name" type="text" name="username" placeholder="John Doe">
+                    <input id="username" type="text" name="username" placeholder="John Doe">
                 </div>
                 <div>
                     <label for="password">Password: <span style="color: red; font-weight: bold;">*</span></label>
@@ -60,8 +61,8 @@
                     <input id="tos" type="checkbox" name="tos">I accept the terms and conditions
                 </div>
                 <div id="register-submit-div">
-                    <input type="button" name="submit" value="Login!">
-                    <input type="button" name="submit" value="Register!">
+                    <input id="login" type="button" name="submit" value="Login!">
+                    <input id="register" type="button" name="submit" value="Register!">
                 </div>
             </form>
         </main>
