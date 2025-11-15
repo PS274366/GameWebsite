@@ -1,4 +1,4 @@
-export function sendRequest(method: string, url: string, body: string, headers: Headers = new Headers({"Content-Type": "application/json"}), credentials: RequestCredentials = "same-origin"): Promise<Response> {
+export function sendRequest(method: string, url: string, body: string, headers: Headers = new Headers({"Content-Type": "application/json", "Accept": "application/json"}), credentials: RequestCredentials = "same-origin"): Promise<Response> {
     const request = new Request(url, {
         method: method,
         headers: headers,
