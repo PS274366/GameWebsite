@@ -5,14 +5,14 @@ namespace App\Service;
 use Medoo\Medoo;
 use Dotenv\Dotenv;
 
-$dotenv = Dotenv::createImmutable(__DIR__ ."../../");
-$dotenv->load();
+$dotenv = Dotenv::createImmutable(__DIR__ ."../../.env");
+$dotenv->safeLoad();
 
 class DatabaseService
 {
     private Medoo $connection;
 
-    public function __construct(Medoo $connection)
+    public function __construct()
     {
         $this->connection = new Medoo([
             "type" => "mysql",
@@ -24,7 +24,7 @@ class DatabaseService
         ]);
 
         try {
-            $this->connection->get("SELECT 1+1");
+            $this->connection->query("SELECT 1");
         } catch (\Exception $e) {
             throw new \Exception("Database connection failed: " . $e->getMessage());
         }
