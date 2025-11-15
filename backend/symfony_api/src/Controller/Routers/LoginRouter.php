@@ -16,7 +16,8 @@ class LoginRouter extends AbstractController
         $response->headers->set("Access-Control-Allow-Origin","http://127.0.0.1:8080");
         $response->headers->set("Access-Control-Allow-Methods","POST, OPTIONS");
         $response->headers->set("Access-Control-Allow-Headers","Content-Type, Authorization");
-
+        
+        // Respond to preflight OPTIONS request
         if ($request->getMethod() === "OPTIONS") {
             $response->setStatusCode(Response::HTTP_NO_CONTENT);
             return $response;
