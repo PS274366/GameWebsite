@@ -16,7 +16,7 @@ return new class extends Migration {
             $table->unsignedInteger('created_at');
         });
 
-        Schema::create('failed_jobs', function (Blueprint $table) {
+        Schema::create('fail`ed_jobs', function (Blueprint $table) {
             $table->id();
             $table->string('uuid')->unique();
             $table->text('connection');

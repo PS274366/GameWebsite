@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i60F2OaqZLY=",
+  "dgSpecHash": "ko5Yc0Crb/k=",
   "success": true,
-  "projectFilePath": "\\\\100.111.70.34\\storage\\Docker\\VisualStudio\\ManagementPanel\\ManagementPanel.csproj",
+  "projectFilePath": "/home/marc2h9/Github/GameWebsite/wpf/ManagementPanel/ManagementPanel.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
